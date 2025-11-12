@@ -21,5 +21,4 @@ cat > /etc/docker/daemon.json <<EOF
 }
 EOF
 
-docker logout
 sudo systemctl restart docker
